@@ -80,6 +80,8 @@ console.log(_color.IsSystemColor()); // Возвращает true, если цв
 
 Расширение системных объектов
 ```js
+const ProgLib = require('proglib');
+
 console.log("Привет".toBase64());   // H0A4MjVC
 console.log(50.768734002.round(2)); // 50.77
 console.log(50.768734002.round());  // 51
