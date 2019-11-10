@@ -68,10 +68,10 @@ let _ansi16  = _color.ToAnsi16();
 let _ansi256 = _color.ToAnsi256();
 
 // Перевод в строку, объект или массив
-let _string  = _color.toString("rgba"); // rgba(255, 255, 255, 1)
+let _string  = _color.toString("rgba");  // rgba(255, 255, 255, 1)
 let _string  = _color.toString("rgba%"); // rgba(100%, 100%, 100%, 1)
-let _object  = _color.toObject("rgba"); // { R: 255, G: 255, B: 255, A: 1 }
-let _array   = _color.toArray("rgba");  // [ 255, 255, 255, 1 ]
+let _object  = _color.toObject("rgba");  // { R: 255, G: 255, B: 255, A: 1 }
+let _array   = _color.toArray("rgba");   // [ 255, 255, 255, 1 ]
 
 console.log(_color.Name);            // Получает имя цвета
 console.log(_color.IsNamedColor());  // Возвращает true, если цвет имеет название
