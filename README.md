@@ -1,4 +1,4 @@
-# Proglib
+# ProgLib
 Многофункциональная библиотека.  
 Пока доступны только 2 основных модуля, но со временем она будет пополняться новым функционалом.
 
@@ -13,10 +13,10 @@ $ npm install proglib --save
 const ProgLib = require('proglib');
 const Path = ProgLib.IO.Path;
 
-let _extension = Path.GetExtension("C:\Users\Name\Desktop\node.js");
+let _extension = Path.GetExtension("C:\\Users\\Name\\Desktop\\node.js");
 console.log(_extension); // .js
 
-let _directoryName = Path.GetDirectoryName("C:\Users\Name\Desktop\node.js");
+let _directoryName = Path.GetDirectoryName("C:\\Users\\Name\\Desktop\\node.js");
 console.log(_directoryName); // C:\Users\Name\Desktop
 ```
 
@@ -85,5 +85,5 @@ console.log(50.768734002.round(2)); // 50.77
 console.log(50.768734002.round());  // 51
 ```
 
-Каждый класс и метод и входной параметр имеет описание.  
+Каждый класс, метод и входной параметр имеет описание.  
 Если вы хотите оставить отзыв или что-то предложить пишите на почту the_alex_mark@mail.ru.
