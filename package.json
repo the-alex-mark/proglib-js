@@ -1,0 +1,23 @@
+{
+  "name": "proglib",
+  "version": "1.1.0",
+  "description": "Многофункциональная библиотека",
+  "main": "main.js",
+  "author": {
+    "name": "Алексаедр Макаров",
+    "email": "the_alex_mark@mail.ru",
+    "vk": "https://vk.com/the_alex_mark"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/the-alex-mark/proglib-js.git"
+  },
+  "keywords": [
+    "ProgLib",
+    "Path",
+    "Color",
+    "SystemColors",
+    "MetroColors"
+  ]
+}
