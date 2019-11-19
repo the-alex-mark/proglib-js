@@ -1,6 +1,6 @@
 {
   "name": "proglib",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Многофункциональная библиотека",
   "main": "main.js",
   "author": {
@@ -15,9 +15,10 @@
   },
   "keywords": [
     "ProgLib",
-    "Path",
-    "Color",
-    "SystemColors",
-    "MetroColors"
+    "Environment", "Version",
+    "Data", "DataTable",
+    "IO", "Path",
+    "Drawing", "Color", "SystemColors", "MetroColors", "Point", "Size", "Rectangle",
+    "Text", "StringBuilder"
   ]
 }
